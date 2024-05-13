@@ -1,5 +1,3 @@
-import '../dart-dasar/function_return_value.dart';
-
 class Person {
   String name = "aan";
   String? alamat;

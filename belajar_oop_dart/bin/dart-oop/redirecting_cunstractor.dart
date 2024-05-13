@@ -34,5 +34,4 @@ void main(){
   var person3 = Person.formAdress("Demak");
   print(person3.name);
   print(person3.address);
-  
-}
+} 
