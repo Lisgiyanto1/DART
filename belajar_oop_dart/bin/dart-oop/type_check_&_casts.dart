@@ -14,10 +14,10 @@ class SubManager extends Manager{
 
 void sayHello(Employe employee){
   if (employee is SubManager){
-    SubManager subManager = employee as SubManager;
+    SubManager subManager = employee;
     print('Halo Sekretaris ${subManager.name}');
   }else if(employee is Manager){
-    Manager manager = employee as Manager;
+    Manager manager = employee;
     print('Halo Manager ${manager.name}');
   }else {
     print('Halo ${employee.name}');

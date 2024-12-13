@@ -3,7 +3,6 @@
   yang terdiri dari field, method, atribut, function
   CONTOH
 */
-import '../dart-dasar/class.dart';
 
 class Teknik {
   //field

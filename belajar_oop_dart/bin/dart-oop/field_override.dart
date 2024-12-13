@@ -9,6 +9,7 @@ class Person{
   }
 }
 class OtherPerson extends Person{
+  @override
   String name = 'Yanto';
 }
 

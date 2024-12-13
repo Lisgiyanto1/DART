@@ -4,8 +4,8 @@ class Expression{
 }
 
 void main(){
-  var get_expression = Expression();
-  get_expression.sayBaby();
-  print(get_expression.getReturnValue());
+  var getExpression = Expression();
+  getExpression.sayBaby();
+  print(getExpression.getReturnValue());
  
 }

@@ -5,7 +5,7 @@ void main(){
   /* Null Safety menginisisasi sebuah kemungkinan terjadi nullpointerexception error, 
   dimana kita perlu mengecek sebuah data nullable agar lebih aman dan tidak terjadi
   kemungkinan error */
-  int? age = null;
+  int? age;
 
   if( age!= null){
     double ageNull = age.toDouble();
@@ -16,7 +16,7 @@ void main(){
   String name = 'Wawan';
   String? namenull = name;
   // jika nullable to non-nullable harus ada pengecekan terlebih dahulu.
-  int? namenullPrice = null;
+  int? namenullPrice;
   if(namenullPrice != null){
     int price = namenullPrice;
     print(price);
@@ -35,15 +35,11 @@ void main(){
   String guestName = 'Guest';
 
   //secara percabangan
-  if (guest != null){
-    guestName = guest;
-  } else {
-    guestName = 'Guest';
-  }
+  guestName = 'Guest';
 
   // secara ternary operator
   String? jenisKelamin;
-  String jenis = jenisKelamin != null ? jenisKelamin : 'Waria';
+  String jenis = jenisKelamin ?? 'Waria';
   print(jenis);
 
 

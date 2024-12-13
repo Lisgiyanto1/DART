@@ -4,7 +4,7 @@ void main() {
   seperti List & Set yang index nya Auto Increament. CONTOH*/
   Map<String, String> person = {}; // general
 
-  var buah = Map<String, String>(); //opsi 1
+  var buah = <String, String>{}; //opsi 1
 
   var address = <String, String>{}; //opsi 2
 

@@ -11,11 +11,11 @@ void main() {
 
   sayHello('Lisgiyanto', (name) => name.toLowerCase());      
 
-  var upperFunction = (String name) {
+  upperFunction(String name) {
     return name.toUpperCase();
-  };
+  }
 
-  var lowerFunction = (String name) => name.toLowerCase();
+  lowerFunction(String name) => name.toLowerCase();
 
   var result1 = upperFunction('Eko');
   print(result1);

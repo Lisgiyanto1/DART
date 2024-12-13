@@ -9,6 +9,7 @@ class Manager {
 }
 
 class GetManager extends Manager {
+  @override
   void setPerson(String name) {
     print('Haloo $name, manager ${this.name}');
   }

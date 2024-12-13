@@ -11,6 +11,6 @@ class Person{
 
 void main() {
   var person = Person("Aan", "Semarang");
-  print('Nama :'+(person.name));
-  print('Kota :'+(person.address!));
+  print('Nama :${person.name}');
+  print('Kota :${person.address!}');
 }

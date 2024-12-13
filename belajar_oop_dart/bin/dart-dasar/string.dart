@@ -6,7 +6,7 @@ void main(){
 
   /// 2. String Interpoletion 
   /* String yang mengandalkan value string dari variable lain dengan sebuah expression */
-  var fullName = '$firstName ${lastName}';
+  var fullName = '$firstName $lastName';
 
   print(fullName);
 
@@ -19,7 +19,7 @@ void main(){
   /* Menggabungkan string menggunakan + ketika sama sama variable. dan bisa secara
   langsung jika bukan variable.
    */
-  var namaAsli = firstName + " " + lastName;
+  var namaAsli = "$firstName $lastName";
   var namaAsli2 = 'Lisgiyanto' ' Sofiyan'; 
 
   print(namaAsli);
